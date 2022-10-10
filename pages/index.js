@@ -3,6 +3,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  // write a error code
+  alert(window.test);
+  
   return (
     <div className={styles.container}>
       <Head>
