@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
 
   // write a error code
-  alert(window.test);
+  eval('haha');
   
   return (
     <div className={styles.container}>
